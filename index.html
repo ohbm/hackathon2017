@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Brainhack Montreal 2017</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css"> -->
+   <link href='https://fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <a href="/index.html" class="branding">
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Menu</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#details" onclick = $("#menu-close").click(); >Details</a>
+            </li>
+            <li>
+                <a href="#schedule" onclick = $("#menu-close").click(); >Schedule</a>
+            </li>
+            <li>
+                <a href="#location" onclick = $("#menu-close").click(); >Location</a>
+            </li>
+            <li>
+                <a href="#sponsors" onclick = $("#menu-close").click(); >Sponsors</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center text-center">
+            <h1>OHBM hackathon 2017</h1>
+			<div class="row">
+				<div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+					<h2>Vancouver, BC - CANADA</a>
+				</div>
+		    </div>
+			<div class="row">
+				<div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+					<h2>June 22-24, 2017</a>
+				</div>
+		    </div>
+
+			<a href="http://www.rbiq-qbin.qc.ca/fr/evenement/5051" target="_blank" class="btn btn-dark btn-lg top5 left5">Register Now</a><a href="https://brainhack-slack-invite.herokuapp.com/" target="_blank" class="btn btn-dark btn-lg top5 left5">Join Brainhack on Slack</a><a href="http://brainhack.org/submit-project/" target="_blank" class="btn btn-dark btn-lg top5 left5">Submit a Project</a><br><br>
+
+			<br><br><br>
+            <p>Artwork by <a href="http://www.amanbadhwar.com/paintings_artscience.php">Aman Badhwar</a></p>
+
+
+            <!-- <a href="#about" class="btn btn-dark btn-lg">Find Out More</a> -->
+        </div>
+          <div class="text-bottom-right">
+
+            <br>
+            <!-- <a href="" class="btn btn-dark btn-lg">Find Out More</a> -->
+        </div>
+    </header>
+
+    <!-- About
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <!-- <hr class="small"> -->
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-share-alt fa-stack-1x text-primary"></i>
+                        </span>
+                            <h4>
+                                <strong>Share</strong>
+                            </h4>
+                            <p>Show your research to other neuroimaging researchers.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-graduation-cap fa-stack-1x text-primary"></i>
+                        </span>
+                            <h4>
+                                <strong>Gain Skills</strong>
+                            </h4>
+                            <p>Learn how to apply the latest computational tools to your data.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-gears  fa-stack-1x text-primary"></i>
+                        </span>
+                            <h4>
+                                <strong>Get Involved</strong>
+                            </h4>
+                            <p>Find exciting projects that you would like to contribute to.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-wechat fa-stack-1x text-primary"></i>
+                        </span>
+                            <h4>
+                                <strong>Be Social</strong>
+                            </h4>
+                            <p>Meet researchers from a variety of backgrounds.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row (nested)
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+</section>
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="details" class="details">
+        <div class="container">
+            <div class="row text-center">
+                 <div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+					<p><h3><a href="" target="_blank">Registration for the OHBM Hackathon is now open!</a></h3></p>
+		    <p>The 2017 OHBM Hackathon is an official satellite event of the <a href="http://www.humanbrainmapping.org/i4a/pages/index.cfm?pageID=3734" target="_blank">23rd Annual Meeting</a> of the Organization of Human Brain Mapping (OHBM) that is organized by the OHBM <a href="http://www.humanbrainmapping.org/i4a/pages/index.cfm?pageID=3712" target="_blank"> "Open Science" Special Interest Group</a>. The goal of the hackathon is to bring together researchers with disparate backgrounds from the OHBM community to collaborate on open science projects in neuroimaging.
+					<h4>Dates: June 22-24, 2017</h4>
+					<h4>Costs: $100 USD, includes onsite onsite breakfast, lunch, dinner and refreshments.</h4>
+					<h4>Location: <a href="#map">  Irving K. Barber Learning Centre, University of British Columbia, Vancouver, Canada.</a></h4>
+					<p>Participants are encouraged to post project ideas to <a href="http://www.brainhack.org" target="_blank">www.brainhack.org</a> and to submit a report describing their project to the <a href="http://www.brainhack.org/proceedings">Brainhack Proceedings</a> that will be published in 2017 by <a href="http://riojournal.com/journals.php?journal_name=rio">Research Ideas and Outcomes</a>.</p>
+					<p>Please join <a href="https://brainhack-slack-invite.herokuapp.com/" target="_blank">the Brainhack Slack project</a> for updated information on the developing Hackathon content and to contribute your own ideas. Confirmed projects include:</p>
+          <p>Deployment of neuroimaging workflows inside <a href="http://mcin-cnim.ca/neuroimagingtechnologies/cbrain/">CBRAIN</a>, a web platform for image processing, using the <a href="http://boutiques.github.io/"> boutiques </a> repository and the <a href="http://singularity.lbl.gov/"> singularity</a> container technology. These workflows will be used to generate standardized neuroimaging biomarkers of Alzheimer's disease for the <a href="http://ccna-ccnv.ca">Canadian Consortium on Neurodegeneration in Aging (CCNA)</a>.</p>
+          <p>An introduction to machine learning in neuroimaging using the <a href="https://nilearn.github.io/">nilearn python library</a>.</p>
+          <p>Crowd-sourced quality control of the registration of brain MRI and functional MRI volumes on the <a href="http://zooniverse.org">zooniverse platform</a>.</p>
+                   </div>
+			</div>
+		</div>
+	</section>
+
+  <section id="stipends" class="details">
+      <div class="container">
+          <div class="row text-center">
+      <div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+        <h3 class="text-color-blue">Travel Awards</h3>
+      <p>Thanks to the generous support of our <a href="#sponsors" class="text-color-blue">sponsors</a>, the OHBM Open Science SIG will award  funding to a limited number of students and post docs to defray their costs for attending the 2017 OHBM Hackathon.</p>
+      <h4>The award will include 500 USD.</h4>
+      <p>To apply, email (1) a half-page Brainhack project proposal, (2) a one-page biographical sketch and (3) proof that you are a graduate student or post-doc (typically a letter from your supervisor) to <a href="mailto:info@brainhack.org">info@brainhack.org</a>.</p>
+      <h4>The application deadline is Friday April 7th, 2016 23:59 EST</h4>
+
+      <p>The organizing committee will determine the winners based on the merits of the submitted materials, as well as geographical, expertise and gender diversity. The winners will be encouraged to develop their project during the hackathon, notably using the <a href="https://brainhack.slack.com" target="_blank">brainhack slack</a> ahead of the event. All hackathon participants will have the opportunity to submit a report on their project for publication in the 2017 Brainhack Proceedings.</p>
+      <p>Awards will be announced by email by April 15th.</p>
+    </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Callout -->
+    <aside class="workspace" id="schedule">
+        <div class="container">
+			<div class="row text-center top30">
+				<div class="col-md-2 col-md-offset-5 col-xs-8 col-xs-offset-2 text-dark">
+				    <h3>Schedule</h3>
+			    </div>
+			</div>
+      <div class="row top30">
+
+  <div class="col-md-6 col-lg-4 col-sm-10 col-xs-10 col-md-offset-0 col-lg-offset-0 col-sm-offset-1 col-xs-offset-1">
+    <div class="row top5 text-center">
+          <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 text-dark">
+            <h4>Thursday, June 22</h4>
+          </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              09:00 - 09:30
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Breakfast
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              09:30 - 10:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Introduction
+      </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              10:00 - 11:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Project Pitches
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              11:00 - 13:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Hacking
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+             13:00 - 14:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Lunch
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+             14:00 - 16:30
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Hacking
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+             16:30 - 18:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Unconference #1
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+             18:00 - 19:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+             Dinner at the <a href="http://www.mahonyandsons.com/">Mahony & Sons Pub</a>
+            </div>
+      </div>
+  </div>
+
+  <div class="col-md-6 col-lg-4 col-sm-10 col-xs-10 col-md-offset-0 col-lg-offset-0 col-sm-offset-1 col-xs-offset-1">
+    <div class="row top5 text-center">
+          <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 text-dark">
+            <h4>Friday, June 23</h4>
+          </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              09:00 - 09:30
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Breakfast
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              09:30 - 11:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Unconference #2
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              11:00 - 13:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Open Hacking
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              13:00 - 14:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Lunch
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              14:00 - 17:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Open Hacking
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              17:00 - 18:30
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Unconference #3
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              18:30 - 19:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              visit of the <a href="http://www.brain.ubc.ca/">Center for Brain Health</a>
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              19:00 - 20:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Dinner
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              20:00 - 00:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Open hacking
+            </div>
+      </div>
+    <div class="row top5">&nbsp;
+      </div>
+  </div>
+
+  <div class="col-md-6 col-lg-4 col-sm-10 col-xs-10 col-md-offset-0 col-lg-offset-0 col-sm-offset-1 col-xs-offset-1">
+    <div class="row top5 text-center">
+          <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 text-dark">
+            <h4>Saturday, June 24</h4>
+          </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              09:00 - 09:30
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Breakfast
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              09:30 - 13:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Hacking
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              13:00 - 14:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Lunch
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              14:00 - 15:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Hacking
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              15:00 - 16:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Project Wrap-up
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              16:00 - 17:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Hackathon Wrap-up
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              17:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Adjourn
+            </div>
+      </div>
+    <div class="row top5">&nbsp;
+      </div>
+    <div class="row top5">&nbsp;
+      </div>
+    <div class="row top5">&nbsp;
+      </div>
+</div>
+
+		</div>
+    </aside>
+
+
+    <!-- Call to Action -->
+    <aside id="location" class="location">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="text-color-blue">Hosted at:</h3>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+    <!-- Map -->
+    <section id="map" class="map">
+	<iframe width="100%" height="100%" frameborder="0" scrolling="no" scrollwheel="false" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.462448879997!2d-123.25461474859735!3d49.2676338796562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548672b6e7ecb487%3A0xb469afb686ebb577!2sThe+Irving+K.+Barber+Learning+Centre!5e0!3m2!1sen!2sca!4v1489207701014" style="border:0" allowfullscreen></iframe>
+	    <br />
+        <small>
+        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.462448879997!2d-123.25461474859735!3d49.2676338796562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548672b6e7ecb487%3A0xb469afb686ebb577!2sThe+Irving+K.+Barber+Learning+Centre!5e0!3m2!1sen!2sca!4v1489207701014"></a>
+	    </small>
+    </section>
+
+    <section id="sponsors" class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+				<div class="col-lg-12 text-center">
+				    <br><h3 class="text-color-blue"><strong>The 2017 OHBM Hackathon is generously sponsored By:</strong></h3><br><br>
+			    </div>
+			</div>
+
+      <div class="row no-gutter">
+  			    <div class="col-lg-10 col-lg-offset-1" >
+                      <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                          <a href="http://mcin-cnim.ca/research/" target="_blank"><img src="img/MCIN.png" width="100%" class="MCIN" alt="MCIN"></a>
+                      </div>
+                      <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                          <a href="https://www.humanbrainmapping.org/" target="_blank"><img src="img/ohbm.jpg" class="img-responsive" id="ohbm_logo" alt="Human Brain Mapping"></a>
+                      </div>
+  			    </div>
+  			</div>
+
+  			<div class="row no-gutter top30">
+  				<div class="col-lg-10 col-lg-offset-1" >
+                      <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                          <a href="https://openfmri.org" target="_blank"><img src="img/openfmri.png" class="img-responsive" alt="OpenfMRI" id="ohbm_logo"></a>
+                      </div>
+                      <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                          <a href="http://www.wellcome.ac.uk/" target="_blank"><img src="img/wellcome.jpg" class="img-responsive" id="ohbm_logo" alt="Wellcome Trust"></a>
+                      </div>
+  				</div>
+              </div>
+  			<div class="row no-gutter top30">
+  				<div class="col-lg-10 col-lg-offset-1" >
+                      <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                          <a href="https://incf.org" target="_blank"><img src="img/incf_logo.png" class="img-responsive" alt="INCF" id="incf_logo"></a>
+                      </div>
+  				</div>
+              </div>
+
+			<br><br>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="services bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h3><strong>For more information:</strong></h3>
+                    <i class="fa fa-envelope-o fa-fw"></i>
+                    <a href="mailto:info@brainhack.org">info@brainhack.org</a>
+                    <br>
+                    <br>
+                    <h3><strong>Organizers:</strong>
+                    </h3>
+                    <ul class="list-unstyled">
+                        <li><h4>Pierre Bellec (chair)</h4></li>
+                        <li><h4>Clara Moreau</h4></li>
+                        <li><h4>Pierre-Olivier Quirion</h4></li>
+                        <li><h4>Cameron Craddock</h4></li>
+                        <li><h4>Nolan Nichols</h4></li>
+                        <li><h4>Daniel Margulies</h4></li>
+                        <li><h4>Jean-Baptiste Poline</h4></li>
+                        <li><h4>Doris Doudet</h4></li>
+                        <li><h4>Lisa Kanavaros</h4></li>
+                    </ul><br>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+
+	$('.map').click(function () {
+	    $('.map iframe').css("pointer-events", "auto");
+	});
+
+	$( ".map" ).mouseleave(function() {
+	  $('.map iframe').css("pointer-events", "none");
+	});
+
+    </script>
+
+</body>
+
+</html>
