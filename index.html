@@ -18,7 +18,7 @@
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css"> -->
    <link href='https://fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
 
@@ -50,10 +50,22 @@
                 <a href="#details" onclick = $("#menu-close").click(); >Details</a>
             </li>
             <li>
+                <a href="#projects" onclick = $("#menu-close").click(); >Submit projects</a>
+            </li>
+            <li>
+                <a href="#stipends" onclick = $("#menu-close").click(); >Travel Awards</a>
+            </li>
+            <li>
+                <a href="#osr" onclick = $("#menu-close").click(); >Open Science Room</a>
+            </li>
+            <li>
                 <a href="#schedule" onclick = $("#menu-close").click(); >Schedule</a>
             </li>
             <li>
                 <a href="#location" onclick = $("#menu-close").click(); >Location</a>
+            </li>
+            <li>
+                <a href="#hotel" onclick = $("#menu-close").click(); >Accomodations</a>
             </li>
             <li>
                 <a href="#sponsors" onclick = $("#menu-close").click(); >Sponsors</a>
@@ -79,7 +91,7 @@
 				</div>
 		    </div>
 
-			<a href="http://www.rbiq-qbin.qc.ca/fr/evenement/5051" target="_blank" class="btn btn-dark btn-lg top5 left5">Register Now</a><a href="https://brainhack-slack-invite.herokuapp.com/" target="_blank" class="btn btn-dark btn-lg top5 left5">Join Brainhack on Slack</a><a href="http://brainhack.org/submit-project/" target="_blank" class="btn btn-dark btn-lg top5 left5">Submit a Project</a><br><br>
+			<a href="http://www.rbiq-qbin.qc.ca/fr/evenement/5051" target="_blank" class="btn btn-dark btn-lg top5 left5">Register Now</a><a href="#stipends" target="_blank" class="btn btn-dark btn-lg top5 left5">Apply for a Travel Award</a><a href="https://brainhack-slack-invite.herokuapp.com/" target="_blank" class="btn btn-dark btn-lg top5 left5">Join Brainhack on Slack</a><a href="#projects" target="_blank" class="btn btn-dark btn-lg top5 left5">Submit a Project</a><br><br>
 
 			<br><br><br>
             <p>Artwork by <a href="http://www.amanbadhwar.com/paintings_artscience.php">Aman Badhwar</a></p>
@@ -179,16 +191,28 @@
 					<h4>Dates: June 22-24, 2017</h4>
 					<h4>Costs: $100 USD, includes onsite onsite breakfast, lunch, dinner and refreshments.</h4>
 					<h4>Location: <a href="#map">  Irving K. Barber Learning Centre, University of British Columbia, Vancouver, Canada.</a></h4>
-					<p>Participants are encouraged to post project ideas to <a href="http://www.brainhack.org" target="_blank">www.brainhack.org</a> and to submit a report describing their project to the <a href="http://www.brainhack.org/proceedings">Brainhack Proceedings</a> that will be published in 2017 by <a href="http://riojournal.com/journals.php?journal_name=rio">Research Ideas and Outcomes</a>.</p>
-					<p>Please join <a href="https://brainhack-slack-invite.herokuapp.com/" target="_blank">the Brainhack Slack project</a> for updated information on the developing Hackathon content and to contribute your own ideas. Confirmed projects include:</p>
-          <p>Deployment of neuroimaging workflows inside <a href="http://mcin-cnim.ca/neuroimagingtechnologies/cbrain/">CBRAIN</a>, a web platform for image processing, using the <a href="http://boutiques.github.io/"> boutiques </a> repository and the <a href="http://singularity.lbl.gov/"> singularity</a> container technology. These workflows will be used to generate standardized neuroimaging biomarkers of Alzheimer's disease for the <a href="http://ccna-ccnv.ca">Canadian Consortium on Neurodegeneration in Aging (CCNA)</a>.</p>
-          <p>An introduction to machine learning in neuroimaging using the <a href="https://nilearn.github.io/">nilearn python library</a>.</p>
-          <p>Crowd-sourced quality control of the registration of brain MRI and functional MRI volumes on the <a href="http://zooniverse.org">zooniverse platform</a>.</p>
+
                    </div>
 			</div>
 		</div>
 	</section>
+  <hr class="small">
+     <section id="projects" class="details">
+         <div class="container">
+             <div class="row text-center">
+                 <div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+          <h3 class="text-color-blue">Submit projects</h4>
+            <p>Participants are encouraged to post project ideas in advance of the hackathon, which are listed on the <a href="https://github.com/ohbm/hackathon2017/wiki" target="_blank">OHBM hackathon wiki</a>. </p>
+  					<p>Please join <a href="https://brainhack-slack-invite.herokuapp.com/" target="_blank">the Brainhack Slack project</a> and announce your project on the #general channel. We suggest you create a dedicated channel for your project, as well as a hackpad with a project summary, roadmap and contributors. </p>
+            <p>Please contribute a short description of your project on the <a href="https://github.com/ohbm/hackathon2017/wiki" target="_blank">OHBM hackathon wiki</a>.
+            <p>Following the hackathon, you will be able to submit a project report to the <a href="http://riojournal.com/browse_user_collection_documents.php?journal_name=rio&collection_id=6">2016 Brainhack Proceedings</a> published by <a href="http://riojournal.com/journals.php?journal_name=rio">Research Ideas and Outcomes</a>.</a>.</p>
+          </div>
+      </div>
+         <!-- /.container -->
+     </section>
 
+
+  <hr class="small">
   <section id="stipends" class="details">
       <div class="container">
           <div class="row text-center">
@@ -205,7 +229,17 @@
     </div>
   </div>
 </section>
-
+<hr class="small">
+   <section id="osr" class="details">
+       <div class="container">
+           <div class="row text-center">
+               <div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+        <h3 class="text-color-blue">OHBM Open Science Room</h4>
+        <p>The spirit of the Hackathon will continue into the OHBM meeting in Geneva from June 26-30, where an Open Science Room (OSR) will be available in the conference venue for all OHBM attendees to discuss, present, and continue working on hackathon projects. The schedule of the open-science room is available in the regular schedule of HBM. </p>
+        </div>
+    </div>
+       <!-- /.container -->
+   </section>
     <!-- Callout -->
     <aside class="workspace" id="schedule">
         <div class="container">
@@ -464,7 +498,16 @@
         <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.462448879997!2d-123.25461474859735!3d49.2676338796562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548672b6e7ecb487%3A0xb469afb686ebb577!2sThe+Irving+K.+Barber+Learning+Centre!5e0!3m2!1sen!2sca!4v1489207701014"></a>
 	    </small>
     </section>
-
+    <section class="hotel" id="hotel">
+        <div class="container">
+			<div class="row text-center top260">
+				<div class="col-md-10 col-md-offset-1 col-xs-8 col-xs-offset-2 text-dark">
+				    <p>The University of British Columbia is offering accomodations at a very affodable rate, with two distinct options. The <a href="http://vancouver.housing.ubc.ca/residences/walter-gage/">Walter Gage residency</a> offers single rooms within a shared appartement with either 4 rooms (50 CAN/night) or 6 rooms (56 CAN/night). All appartements are shared by brainhack participants. It is also possible to rent a suite in the same building for 139 CAN/night. There are finally even more comfortable suites called <a href="http://suitesatubc.com/accommodations/west-coast-suites/"> West Coast Suites</a> , located right next by the Walter Gage residency, for 209 CAN/night. </p>
+					<p>The hotel is approximately <a href="https://www.google.ca/maps/place/Gage+Apartments+at+UBC/@49.2685854,-123.2535697,17z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0x548672b9deaaeb01:0x76858f6068e63fc!2sGage+Apartments+at+UBC,+5959+Student+Union+Blvd,+Vancouver,+BC+V6T+1K2!2m2!1d-123.249086!2d49.2697371!3m4!1s0x548672b9deaaeb01:0x76858f6068e63fc!8m2!3d49.2697371!4d-123.249086">10 minutes by public transportation</a> from the Irving K Barber Learning Centre.</p>
+			    </div>
+			</div>
+		</div>
+	</section>
     <section id="sponsors" class="no-padding">
         <div class="container-fluid">
             <div class="row no-gutter">
